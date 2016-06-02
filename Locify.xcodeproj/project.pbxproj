@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAB562F51CFA6AD4008D45CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB562F41CFA6AD4008D45CD /* main.m */; };
+		AAB562F81CFA6AD4008D45CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB562F71CFA6AD4008D45CD /* AppDelegate.m */; };
+		AAB562FB1CFA6AD4008D45CD /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB562FA1CFA6AD4008D45CD /* MainViewController.m */; };
+		AAB562FE1CFA6AD4008D45CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB562FC1CFA6AD4008D45CD /* Main.storyboard */; };
+		AAB563001CFA6AD4008D45CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB562FF1CFA6AD4008D45CD /* Assets.xcassets */; };
+		AAB563031CFA6AD4008D45CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB563011CFA6AD4008D45CD /* LaunchScreen.storyboard */; };
+		AAB5630E1CFA6AD4008D45CD /* ParseTestyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB5630D1CFA6AD4008D45CD /* ParseTestyTests.m */; };
+		ACF73D0EBFF7E8B118D578A0 /* libPods-ParseTesty.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 154FB5B439CD93C6A264B2DD /* libPods-ParseTesty.a */; };
+		E915F2771CFC8F5300786466 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E915F2761CFC8F5300786466 /* MapKit.framework */; };
+		E915F27A1CFCB48800786466 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E915F2791CFCB48800786466 /* FeedViewController.m */; };
+		E915F2A31CFCC33200786466 /* locify.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E915F2A11CFCC33200786466 /* locify.xcdatamodeld */; };
+		E915F2A81CFCC87900786466 /* User+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E915F2A51CFCC87900786466 /* User+CoreDataProperties.m */; };
+		E915F2A91CFCC87900786466 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = E915F2A71CFCC87900786466 /* User.m */; };
+		E915F2AC1CFDEF3500786466 /* OtherUser.m in Sources */ = {isa = PBXBuildFile; fileRef = E915F2AB1CFDEF3500786466 /* OtherUser.m */; };
+		E915F2AF1CFE4E6900786466 /* PostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E915F2AE1CFE4E6800786466 /* PostCell.m */; };
+		E915F2B21CFF33D700786466 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = E915F2B11CFF33D700786466 /* Post.m */; };
+		E915F2B51CFF401000786466 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E915F2B41CFF401000786466 /* HistoryViewController.m */; };
+		E915F2B81CFF457D00786466 /* CaptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E915F2B71CFF457D00786466 /* CaptionViewController.m */; };
+		E973DF9F1D008BA0003E45D4 /* HistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E973DF9E1D008BA0003E45D4 /* HistoryCell.m */; };
+		E973DFA21D00C4C0003E45D4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E973DFA11D00C4C0003E45D4 /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAB5630A1CFA6AD4008D45CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAB562E81CFA6AD4008D45CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAB562EF1CFA6AD4008D45CD;
+			remoteInfo = ParseTesty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		154FB5B439CD93C6A264B2DD /* libPods-ParseTesty.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ParseTesty.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C5CF55EAA5CBB4B7751CE85 /* Pods-ParseTesty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseTesty.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParseTesty/Pods-ParseTesty.debug.xcconfig"; sourceTree = "<group>"; };
+		214F1285B91A54B38A74CD6A /* Pods-ParseTesty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseTesty.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParseTesty/Pods-ParseTesty.release.xcconfig"; sourceTree = "<group>"; };
+		AAB562F01CFA6AD4008D45CD /* Locify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Locify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB562F41CFA6AD4008D45CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAB562F61CFA6AD4008D45CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAB562F71CFA6AD4008D45CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AAB562F91CFA6AD4008D45CD /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		AAB562FA1CFA6AD4008D45CD /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		AAB562FD1CFA6AD4008D45CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAB562FF1CFA6AD4008D45CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAB563021CFA6AD4008D45CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAB563041CFA6AD4008D45CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAB563091CFA6AD4008D45CD /* Locify.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Locify.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB5630D1CFA6AD4008D45CD /* ParseTestyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParseTestyTests.m; sourceTree = "<group>"; };
+		AAB5630F1CFA6AD4008D45CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E915F2761CFC8F5300786466 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E915F2781CFCB48800786466 /* FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		E915F2791CFCB48800786466 /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		E915F2A21CFCC33200786466 /* locify.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = locify.xcdatamodel; sourceTree = "<group>"; };
+		E915F2A41CFCC87900786466 /* User+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "User+CoreDataProperties.h"; sourceTree = "<group>"; };
+		E915F2A51CFCC87900786466 /* User+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "User+CoreDataProperties.m"; sourceTree = "<group>"; };
+		E915F2A61CFCC87900786466 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		E915F2A71CFCC87900786466 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		E915F2AA1CFDEF3500786466 /* OtherUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherUser.h; sourceTree = "<group>"; };
+		E915F2AB1CFDEF3500786466 /* OtherUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherUser.m; sourceTree = "<group>"; };
+		E915F2AD1CFE4E6800786466 /* PostCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostCell.h; sourceTree = "<group>"; };
+		E915F2AE1CFE4E6800786466 /* PostCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostCell.m; sourceTree = "<group>"; };
+		E915F2B01CFF33D700786466 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		E915F2B11CFF33D700786466 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		E915F2B31CFF401000786466 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		E915F2B41CFF401000786466 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		E915F2B61CFF457D00786466 /* CaptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptionViewController.h; sourceTree = "<group>"; };
+		E915F2B71CFF457D00786466 /* CaptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptionViewController.m; sourceTree = "<group>"; };
+		E973DF9D1D008BA0003E45D4 /* HistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryCell.h; sourceTree = "<group>"; };
+		E973DF9E1D008BA0003E45D4 /* HistoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryCell.m; sourceTree = "<group>"; };
+		E973DFA01D00C4C0003E45D4 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		E973DFA11D00C4C0003E45D4 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAB562ED1CFA6AD4008D45CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E915F2771CFC8F5300786466 /* MapKit.framework in Frameworks */,
+				ACF73D0EBFF7E8B118D578A0 /* libPods-ParseTesty.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB563061CFA6AD4008D45CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02FAE12D4EDBF6951D71604E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E915F2761CFC8F5300786466 /* MapKit.framework */,
+				154FB5B439CD93C6A264B2DD /* libPods-ParseTesty.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAB562E71CFA6AD4008D45CD = {
+			isa = PBXGroup;
+			children = (
+				E915F2A41CFCC87900786466 /* User+CoreDataProperties.h */,
+				E915F2A51CFCC87900786466 /* User+CoreDataProperties.m */,
+				E915F2A61CFCC87900786466 /* User.h */,
+				E915F2A71CFCC87900786466 /* User.m */,
+				AAB562F21CFA6AD4008D45CD /* Locify */,
+				AAB5630C1CFA6AD4008D45CD /* ParseTestyTests */,
+				AAB562F11CFA6AD4008D45CD /* Products */,
+				D3ECFA43E7E6E0881C940659 /* Pods */,
+				02FAE12D4EDBF6951D71604E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AAB562F11CFA6AD4008D45CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAB562F01CFA6AD4008D45CD /* Locify.app */,
+				AAB563091CFA6AD4008D45CD /* Locify.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAB562F21CFA6AD4008D45CD /* Locify */ = {
+			isa = PBXGroup;
+			children = (
+				AAB562F61CFA6AD4008D45CD /* AppDelegate.h */,
+				AAB562F71CFA6AD4008D45CD /* AppDelegate.m */,
+				AAB562F91CFA6AD4008D45CD /* MainViewController.h */,
+				AAB562FA1CFA6AD4008D45CD /* MainViewController.m */,
+				E915F2781CFCB48800786466 /* FeedViewController.h */,
+				E915F2791CFCB48800786466 /* FeedViewController.m */,
+				E915F2B31CFF401000786466 /* HistoryViewController.h */,
+				E915F2B41CFF401000786466 /* HistoryViewController.m */,
+				E915F2B61CFF457D00786466 /* CaptionViewController.h */,
+				E915F2B71CFF457D00786466 /* CaptionViewController.m */,
+				E973DFA01D00C4C0003E45D4 /* DetailViewController.h */,
+				E973DFA11D00C4C0003E45D4 /* DetailViewController.m */,
+				AAB562FC1CFA6AD4008D45CD /* Main.storyboard */,
+				AAB562FF1CFA6AD4008D45CD /* Assets.xcassets */,
+				AAB563011CFA6AD4008D45CD /* LaunchScreen.storyboard */,
+				AAB563041CFA6AD4008D45CD /* Info.plist */,
+				E915F2A11CFCC33200786466 /* locify.xcdatamodeld */,
+				E915F2AA1CFDEF3500786466 /* OtherUser.h */,
+				E915F2AB1CFDEF3500786466 /* OtherUser.m */,
+				E915F2AD1CFE4E6800786466 /* PostCell.h */,
+				E915F2AE1CFE4E6800786466 /* PostCell.m */,
+				E973DF9D1D008BA0003E45D4 /* HistoryCell.h */,
+				E973DF9E1D008BA0003E45D4 /* HistoryCell.m */,
+				E915F2B01CFF33D700786466 /* Post.h */,
+				E915F2B11CFF33D700786466 /* Post.m */,
+				AAB562F31CFA6AD4008D45CD /* Supporting Files */,
+			);
+			name = Locify;
+			path = ParseTesty;
+			sourceTree = "<group>";
+		};
+		AAB562F31CFA6AD4008D45CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAB562F41CFA6AD4008D45CD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAB5630C1CFA6AD4008D45CD /* ParseTestyTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAB5630D1CFA6AD4008D45CD /* ParseTestyTests.m */,
+				AAB5630F1CFA6AD4008D45CD /* Info.plist */,
+			);
+			path = ParseTestyTests;
+			sourceTree = "<group>";
+		};
+		D3ECFA43E7E6E0881C940659 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C5CF55EAA5CBB4B7751CE85 /* Pods-ParseTesty.debug.xcconfig */,
+				214F1285B91A54B38A74CD6A /* Pods-ParseTesty.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAB562EF1CFA6AD4008D45CD /* Locify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB563121CFA6AD4008D45CD /* Build configuration list for PBXNativeTarget "Locify" */;
+			buildPhases = (
+				FE465C4F70DF497718828345 /* Check Pods Manifest.lock */,
+				AAB562EC1CFA6AD4008D45CD /* Sources */,
+				AAB562ED1CFA6AD4008D45CD /* Frameworks */,
+				AAB562EE1CFA6AD4008D45CD /* Resources */,
+				A511160A1C12F6E7BD025067 /* Embed Pods Frameworks */,
+				46D59CA4B135F50FCC47B2E3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Locify;
+			productName = ParseTesty;
+			productReference = AAB562F01CFA6AD4008D45CD /* Locify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAB563081CFA6AD4008D45CD /* LocifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB563151CFA6AD4008D45CD /* Build configuration list for PBXNativeTarget "LocifyTests" */;
+			buildPhases = (
+				AAB563051CFA6AD4008D45CD /* Sources */,
+				AAB563061CFA6AD4008D45CD /* Frameworks */,
+				AAB563071CFA6AD4008D45CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAB5630B1CFA6AD4008D45CD /* PBXTargetDependency */,
+			);
+			name = LocifyTests;
+			productName = ParseTestyTests;
+			productReference = AAB563091CFA6AD4008D45CD /* Locify.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAB562E81CFA6AD4008D45CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = steve;
+				TargetAttributes = {
+					AAB562EF1CFA6AD4008D45CD = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ZXM765972N;
+					};
+					AAB563081CFA6AD4008D45CD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AAB562EF1CFA6AD4008D45CD;
+					};
+				};
+			};
+			buildConfigurationList = AAB562EB1CFA6AD4008D45CD /* Build configuration list for PBXProject "Locify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAB562E71CFA6AD4008D45CD;
+			productRefGroup = AAB562F11CFA6AD4008D45CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAB562EF1CFA6AD4008D45CD /* Locify */,
+				AAB563081CFA6AD4008D45CD /* LocifyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAB562EE1CFA6AD4008D45CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB563031CFA6AD4008D45CD /* LaunchScreen.storyboard in Resources */,
+				AAB563001CFA6AD4008D45CD /* Assets.xcassets in Resources */,
+				AAB562FE1CFA6AD4008D45CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB563071CFA6AD4008D45CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46D59CA4B135F50FCC47B2E3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParseTesty/Pods-ParseTesty-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A511160A1C12F6E7BD025067 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParseTesty/Pods-ParseTesty-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE465C4F70DF497718828345 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAB562EC1CFA6AD4008D45CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E915F2A81CFCC87900786466 /* User+CoreDataProperties.m in Sources */,
+				E915F2A91CFCC87900786466 /* User.m in Sources */,
+				AAB562FB1CFA6AD4008D45CD /* MainViewController.m in Sources */,
+				E973DF9F1D008BA0003E45D4 /* HistoryCell.m in Sources */,
+				E915F2A31CFCC33200786466 /* locify.xcdatamodeld in Sources */,
+				E915F2B51CFF401000786466 /* HistoryViewController.m in Sources */,
+				AAB562F81CFA6AD4008D45CD /* AppDelegate.m in Sources */,
+				E915F2B21CFF33D700786466 /* Post.m in Sources */,
+				E915F2B81CFF457D00786466 /* CaptionViewController.m in Sources */,
+				E915F2AF1CFE4E6900786466 /* PostCell.m in Sources */,
+				E915F27A1CFCB48800786466 /* FeedViewController.m in Sources */,
+				AAB562F51CFA6AD4008D45CD /* main.m in Sources */,
+				E915F2AC1CFDEF3500786466 /* OtherUser.m in Sources */,
+				E973DFA21D00C4C0003E45D4 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB563051CFA6AD4008D45CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB5630E1CFA6AD4008D45CD /* ParseTestyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAB5630B1CFA6AD4008D45CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAB562EF1CFA6AD4008D45CD /* Locify */;
+			targetProxy = AAB5630A1CFA6AD4008D45CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAB562FC1CFA6AD4008D45CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAB562FD1CFA6AD4008D45CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAB563011CFA6AD4008D45CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAB563021CFA6AD4008D45CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAB563101CFA6AD4008D45CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AAB563111CFA6AD4008D45CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAB563131CFA6AD4008D45CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C5CF55EAA5CBB4B7751CE85 /* Pods-ParseTesty.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ParseTesty/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoanutmobile.ParseTesty;
+				PRODUCT_NAME = Locify;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		AAB563141CFA6AD4008D45CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 214F1285B91A54B38A74CD6A /* Pods-ParseTesty.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ParseTesty/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoanutmobile.ParseTesty;
+				PRODUCT_NAME = Locify;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		AAB563161CFA6AD4008D45CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ParseTestyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoanutmobile.ParseTestyTests;
+				PRODUCT_NAME = Locify;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Locify.app/Locify";
+			};
+			name = Debug;
+		};
+		AAB563171CFA6AD4008D45CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ParseTestyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoanutmobile.ParseTestyTests;
+				PRODUCT_NAME = Locify;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Locify.app/Locify";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAB562EB1CFA6AD4008D45CD /* Build configuration list for PBXProject "Locify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB563101CFA6AD4008D45CD /* Debug */,
+				AAB563111CFA6AD4008D45CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAB563121CFA6AD4008D45CD /* Build configuration list for PBXNativeTarget "Locify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB563131CFA6AD4008D45CD /* Debug */,
+				AAB563141CFA6AD4008D45CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAB563151CFA6AD4008D45CD /* Build configuration list for PBXNativeTarget "LocifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB563161CFA6AD4008D45CD /* Debug */,
+				AAB563171CFA6AD4008D45CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E915F2A11CFCC33200786466 /* locify.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E915F2A21CFCC33200786466 /* locify.xcdatamodel */,
+			);
+			currentVersion = E915F2A21CFCC33200786466 /* locify.xcdatamodel */;
+			path = locify.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AAB562E81CFA6AD4008D45CD /* Project object */;
+}
