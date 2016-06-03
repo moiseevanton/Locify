@@ -7,6 +7,7 @@
 //
 
 #import "HistoryViewController.h"
+#import "DetailViewController.h"
 
 @interface HistoryViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -32,6 +33,12 @@
     self.title = @"Your Posts";
     // hide cell separators
     self.historyTableView.separatorColor = [UIColor clearColor];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    NSIndexPath *indexPath = [self.historyTableView indexPathForSelectedRow];
+    [self.historyTableView deselectRowAtIndexPath:indexPath animated:NO];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -128,6 +135,12 @@
     dispatch_async(dispatch_get_main_queue(), ^{
         [self.historyTableView reloadData];
     });
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    NSIndexPath *indexPath = [self.historyTableView indexPathForSelectedRow];
+    DetailViewController *dvc = segue.destinationViewController;
+    dvc.thePost = self.theUsersPosts[indexPath.row];
 }
 
 @end

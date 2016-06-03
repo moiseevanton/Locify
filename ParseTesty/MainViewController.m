@@ -241,7 +241,7 @@
     NSMutableArray *otherUsersNearby = [NSMutableArray new];
     [query findObjectsInBackgroundWithBlock:^(NSArray * _Nullable objects, NSError * _Nullable error) {
         NSLog(@"%lu users found", objects.count);
-        self.howManyOtherUsersLabel.text = [NSString stringWithFormat:@"There are %lu other users around you.", objects.count];
+        self.howManyOtherUsersLabel.text = [NSString stringWithFormat:@"Users around you: %lu", objects.count];
         for (PFObject *object in objects) {
             CLLocationCoordinate2D otherUserCoordinate = CLLocationCoordinate2DMake([object[@"lat"] doubleValue], [object[@"lng"] doubleValue]);
             OtherUser *otherUser = [OtherUser new];
