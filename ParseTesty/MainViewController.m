@@ -128,11 +128,11 @@
 #pragma mark - implementation of camera
 
 - (void)cameraButtonTapped {
-    [self alertUserWithMessage:@"Take a photo or pick one from the camera roll"];
+    [self alertUserWithMessage:@"Take a photo or pick one from the camera roll. Share it with everyone around you!"];
 }
 
 - (void)alertUserWithMessage:(NSString *)message {
-    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"What do you want to do?" message:message preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"What would you like to do?" message:message preferredStyle:UIAlertControllerStyleAlert];
     UIAlertAction *cameraAction = [UIAlertAction actionWithTitle:@"Camera" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         [self cameraTapped];
     }];
